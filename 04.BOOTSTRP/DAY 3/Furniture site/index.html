@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture site</title>
+    <link rel="icon" type="img.png" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <style>
+        body{
+            padding: 0px;
+            margin: 0px;
+            font-family: "Open Sans", sans-serif;}
+    </style>
+</head>
+<body>
+    <!-- header -->
+    <nav class="navbar bg-dark text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand text-light fw-bolder fs-2" href="#">
+            <i class="fa-solid fa-chair fa-fade"></i>
+            Furniture House
+          </a>
+        </div>
+      </nav>
+      <!-- carousal -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://images.unsplash.com/photo-1558442086-8ea19a79cd4d?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="650px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://images.unsplash.com/photo-1614451153744-0c4f015f4d68?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="650px" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://plus.unsplash.com/premium_photo-1683134661636-610c3a568e86?q=80&w=1864&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="d-block w-100" height="650px" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- section -->
+      <div class="container text-center">
+        <h3 class="text-center m-5">EXPLORE OUR FURNITURE RANGE</h3>
+        <div class="row">
+            <div class="col">
+                <img src="https://imgs.search.brave.com/IPwOCQ0MqpcUcdJCA3nt7hV4j--MkDI3wp9KX4TJo3A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRs/ZXlob21lLmNvbS9j/ZG4vc2hvcC9wcm9k/dWN0cy9MQl9NZWRs/ZXk2NTY3MV8yXzEu/anBnP3Y9MTY5ODk1/OTcyNiZ3aWR0aD0x/MzEz" width="200px" height="200px" class="rounded-pill border border-dark" alt="">
+            </div>
+            <div class="col">
+                <img src="https://imgs.search.brave.com/Mh86JdWSIVCYS4LD58fMdNaePU5L2F3d5a5wm54SQMQ/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/YnV6emZlZWQuY29t/L2J1enpmZWVkLXN0/YXRpYy9zdGF0aWMv/MjAyNC0wMi8xNC82/L2Fzc2V0L2QxN2Rk/MzUzOWNhOC9zdWIt/YnV6ei0xMDAwLTE3/MDc4OTMzMDctMy5q/cGc_Y3JvcD0xMjAw/OjExMDg7MCwzMDg" width="200px" height="200px" class="rounded-pill border border-dark" alt="">
+            </div>
+            <div class="col">
+                <img src="https://imgs.search.brave.com/JT3FZoKArhwlkLB-ezQgZSjqVY519jmal3PdqTQFUpA/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9jb250/ZW50LmxhLXotYm95/LmNvbS9JbWFnZXMv/cHJvZHVjdC9jYXRl/Z29yeWFsdC9iaWcv/TVZQMWRfS0VOTkVE/WV9CMTE2Mjk2LWFs/dC5qcGc" width="200px" height="200px" class="rounded-pill border border-dark" alt="">
+            </div>
+            <div class="col">
+                <img src="https://imgs.search.brave.com/GqVKumDDQjPGUhyUITY0GnLViAcCJ-UTl_ZWepuo69c/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pbWcu/YnV6emZlZWQuY29t/L2J1enpmZWVkLXN0/YXRpYy9zdGF0aWMv/MjAyMi0wNi82LzIw/L2Fzc2V0LzA1Yjcy/NDBiNGFlNi9zdWIt/YnV6ei0xMTMzLTE2/NTQ1NDYxMDEtMjku/anBnP2Nyb3A9MTUw/MDoxNTAwOzAsMCZk/b3duc2l6ZT0zNTA6/KiZvdXRwdXQtZm9y/bWF0PWF1dG8mb3V0/cHV0LXF1YWxpdHk9/YXV0bw" width="200px" height="200px" class="rounded-pill border border-dark" alt="">
+            </div>
+        </div>
+      </div>
+      <!-- section -->
+      <div class="containter text-center m-5">
+        <h3 class="m-5">BUDGET FRIENDLY HOME FURNISHING COLLECTION </h3>
+        <div class="row">
+            <div class="col-3">
+                <img src="https://medleyhome.com/cdn/shop/files/Lala_new_room_extra01.jpg?v=1706291123&width=600" width="300px" height="200px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://medleyhome.com/cdn/shop/products/Rio_sofa_v2_E3.jpg?v=1683918355&width=600" width="300px" height="200px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://medleyhome.com/cdn/shop/products/Dekayess-Sofa-041_2_1.jpg?v=1696460806&width=600" width="300px" height="200px" alt="">
+            </div>
+            <div class="col-3">
+                <img src="https://medleyhome.com/cdn/shop/products/Zavis-Closeup-011_1.jpg?v=1697406852&width=600" width="300px" height="200px" alt="">
+            </div>
+        </div>
+      </div>
+      <div class="container text-center m-5">
+        <h3 class="text-center">Customer Stories</h3>
+        <br><br>
+        <div class="row d-flex justify-content-evenly">
+            <div class="col-2 border border-4 text-dark">
+              <img src="https://s.ndtvimg.com//images/entities/120/virender-sehwag-86.png" alt="">
+                <h5><b>Virender Sehwag</b></h5>
+                <h6 class="text-danger">Via Facebook</h6>
+                <img src="https://images.unsplash.com/photo-1571898223382-0aa3499f0f2a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150px" height="250px" alt="">
+                <button type="button" class="btn btn-danger">View Product</button>
+            </div>
+            <div class="col-2 border border-4 text-dark">
+              <img src="https://s.ndtvimg.com//images/entities/120/sachin-ramesh-tendulkar-14.png" alt="">
+                <h5><b>Sachin Tendulkar</b></h5>
+                <h6 class="text-danger">Via Facebook</h6>
+                <img src="https://images.unsplash.com/photo-1506898667547-42e22a46e125?q=80&w=1906&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" width="150px" height="250px" alt="">
+                <button type="button" class="btn btn-danger">View Product</button>
+            </div>
+            <div class="col-2 border border-4 text-dark">
+                <img src="https://s.ndtvimg.com//images/entities/120/yuvraj-singh-456.png" alt="">
+                <h5><b>Rahul Dravid</b></h5>
+                <h6 class="text-danger">Via Facebook</h6>
+                <img src="https://medleyhome.com/cdn/shop/products/Ridge-Chairs-01_0c3b6242-42c8-4e64-a7de-6f06b2d5ed74.jpg?v=1714158748&width=600" width="150px" height="250px" alt="">
+                <button type="button" class="btn btn-danger">View Product</button>
+            </div>
+        </div>
+      </div>
+</body>
+</html>

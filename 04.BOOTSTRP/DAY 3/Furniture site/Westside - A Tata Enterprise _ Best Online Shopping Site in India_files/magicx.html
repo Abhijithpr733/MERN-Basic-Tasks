@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)https://api.razorpay.com/v1/magic/assets/sopc/magicx.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Magic X</title>
+</head>
+
+<body>
+  <link href="./css2(1)" rel="stylesheet" type="text/css">
+  <style>
+    * {
+      font-family: 'Inter', 'Avenir', sans-serif;
+    }
+  </style>
+
+  <script>
+    load();
+
+    function qp2Obj() {
+      var obj = {};
+      var params = new URLSearchParams(window.location.search);
+
+      for (let p of params) {
+        obj[p[0]] = p[1];
+      }
+
+      return { ...obj };
+    }
+
+    function makeBaseUrl() {
+      let url = 'https://magic-plugins.razorpay.com/sopc';
+      var qpMap = qp2Obj();
+
+      if (qpMap.branch) {
+        url = `https://magic-plugins.np.razorpay.in/branch-builds/${qpMap.branch}/sopc`;
+      }
+
+      return url;
+    }
+
+    function load() {
+      var url = makeBaseUrl();
+
+      loadFrame(url);
+      loadCss(url);
+    }
+
+    function loadFrame(url) {
+      const scrpt = document.createElement('script');
+
+      scrpt.src = `${url}/magic-sopc-frame.js`;
+
+      document.body.append(scrpt);
+    }
+
+    function loadCss(url) {
+      const lnk = document.createElement('link');
+
+      lnk.rel = 'stylesheet';
+      lnk.href = `${url}/magic-sopc-frame.css`;
+
+      document.body.append(lnk);
+    }
+  </script><script src="./magic-sopc-frame.js.download"></script><link rel="stylesheet" href="./magic-sopc-frame.css">
+
+
+
+</body></html>

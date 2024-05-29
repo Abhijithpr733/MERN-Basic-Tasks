@@ -1,0 +1,2 @@
+var img = new Image();
+img.src="https://verge-shopify.s3.amazonaws.com/rf/" + btoa(document.location.href);

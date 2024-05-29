@@ -1,0 +1,18 @@
+div{
+    margin: auto;
+    width: 50%;
+    border: 0px;
+    height: 2000px;
+}
+h3{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+dd{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    position: sticky;
+    top: 0;
+}
